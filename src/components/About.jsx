@@ -37,7 +37,7 @@ const About = () => {
             </div> 
 
             <div className='flex items-center justify-between'>
-            <p className='text-xl sm:text-2xl opacity-80'>Check out the code <span className='hover:opacity-100 underline'><a href="">here.</a></span></p>
+            <p className='text-xl sm:text-2xl opacity-80'>Check out the code <span className='hover:opacity-100 underline'><a href="https://github.com/Sayan-Majumdar-06/pulse">here.</a></span></p>
             <button className='px-3 sm:px-8 py-2 sm:py-4 rounded-xl cursor-pointer shadow-[0_0_15px_rgba(8,217,214,0.4)] transition-[all_0.25s_ease] hover:scale-[1.04] hover:shadow-[0_0_25px_rgba(8,217,214,0.7)] bg-[#08d9d6] text-[#1e1e24]' onClick={() => navigate('/')}>Home</button>
             </div>
         </div>

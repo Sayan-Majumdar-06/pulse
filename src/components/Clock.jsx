@@ -39,9 +39,9 @@ const Clock = () => {
         </div>
 
         <div className='flex justify-center items-center w-fit mx-auto p-4 sm:p-12 h-[200px] gap-1 sm:gap-4 tabular-nums font-montserrat'>
-          <h1 className={handle.active?'text-[8rem] sm:text-[12rem] lg:text-[16rem] font-extrabold text-[#ff2e628d]':'text-[6rem] sm:text-[10rem] lg:text-[14rem] font-extrabold text-[#ff2e628d]'} style={{ WebkitTextStroke: '2px rgba(255,255,255,0.2)'}}>{ hours }</h1>
+          <h1 className={handle.active?'text-[6rem] sm:text-[12rem] lg:text-[16rem] font-extrabold text-[#ff2e628d]':'text-[6rem] sm:text-[10rem] lg:text-[14rem] font-extrabold text-[#ff2e628d]'} style={{ WebkitTextStroke: '2px rgba(255,255,255,0.2)'}}>{ hours }</h1>
           <h1  className='text-[6rem] sm:text-[10rem] lg:text-[14rem] font-bold text-[#ff2e62be] pulse' style={{ WebkitTextStroke: '2px rgba(255,255,255,0.2)' }}>:</h1>
-          <h1 className={handle.active?'text-[8rem] sm:text-[12rem] lg:text-[16rem] font-extrabold text-[#ff2e628d]':'text-[6rem] sm:text-[10rem] lg:text-[14rem] font-extrabold text-[#ff2e628d]'}  style={{ WebkitTextStroke: '2px rgba(255,255,255,0.2)'}}>{ minutes }</h1>
+          <h1 className={handle.active?'text-[6rem] sm:text-[12rem] lg:text-[16rem] font-extrabold text-[#ff2e628d]':'text-[6rem] sm:text-[10rem] lg:text-[14rem] font-extrabold text-[#ff2e628d]'}  style={{ WebkitTextStroke: '2px rgba(255,255,255,0.2)'}}>{ minutes }</h1>
         </div>
 
         <div className={handle.active? 'hidden' : 'w-full flex justify-center sm:p-8'}>
