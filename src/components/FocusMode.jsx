@@ -181,11 +181,13 @@ const FocusMode = () => {
 
           {/* Timer controls */}
           <div className='w-fit mx-auto flex items-center gap-4 sm:gap-8 flex-wrap'>
-            <button className='px-3 sm:px-5 py-3 rounded-xl cursor-pointer shadow-[0_0_15px_rgba(255,46,99,0.4)] transition-[all_0.25s_ease] hover:scale-[1.04] hover:shadow-[0_0_25px_rgba(255,46,99,0.7)] bg-[#FF2E63]' onClick={startTimer}>Start</button>
+            <button className={`${isActive?'hidden':'block px-3 sm:px-5 py-3 rounded-xl cursor-pointer shadow-[0_0_15px_rgba(255,46,99,0.4)] transition-[all_0.25s_ease] hover:scale-[1.04] hover:shadow-[0_0_25px_rgba(255,46,99,0.7)] bg-[#FF2E63]'}`} onClick={startTimer}>Start</button>
+
+            <button className={`${!isActive? 'hidden': 'block px-5 py-3 rounded-xl cursor-pointer shadow-[0_0_15px_rgba(255,46,99,0.4)] transition-[all_0.25s_ease] hover:scale-[1.04] hover:shadow-[0_0_25px_rgba(255,46,99,0.7)] bg-[#FF2E63]'}`} onClick={stopTimer}>Reset</button>
+
             <button className={handle.active? 'hidden':'p-3 rounded-xl flex gap-2 cursor-pointer shadow-[0_0_15px_rgba(255,46,99,0.4)] transition-[all_0.25s_ease] hover:scale-[1.04] hover:shadow-[0_0_25px_rgba(255,46,99,0.7)] bg-[#ff2e62cd]'} onClick={handle.enter}>
                <img src={fullscreen} alt=''></img> Fullscreen
             </button>
-            <button className='px-5 py-3 rounded-xl cursor-pointer shadow-[0_0_15px_rgba(255,46,99,0.4)] transition-[all_0.25s_ease] hover:scale-[1.04] hover:shadow-[0_0_25px_rgba(255,46,99,0.7)] bg-[#FF2E63]' onClick={stopTimer}>Reset</button>
           </div>
 
         </div>

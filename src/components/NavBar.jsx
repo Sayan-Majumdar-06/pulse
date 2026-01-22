@@ -10,7 +10,7 @@ const NavBar = () => {
                 <div className='relative inline-block group'>
                     <button className='border-none'>Features</button>
                     <div className='bg-[#1E1E24] hidden z-1 absolute min-w-40 group-hover:flex group-hover:flex-col'>
-                        <NavLink to="/clock" className='p-2 hover:bg-[#494951] cursor-pointer'>Clock</NavLink>
+                        <NavLink to="/clock" className='p-2 hover:bg-[#494951] cursor-pointer'>Ambient Mode</NavLink>
                         <NavLink to="/focusmode" className='p-2 hover:bg-[#494951] cursor-pointer'>Focus Mode</NavLink>
                         <NavLink to="https://snippits-chi.vercel.app/" target='_blank' className='p-2 hover:bg-[#494951] cursor-pointer'>Try Snippits</NavLink>
                     </div>
