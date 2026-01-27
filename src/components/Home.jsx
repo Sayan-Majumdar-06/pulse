@@ -6,7 +6,6 @@ const Home = () => {
     <div className='w-full h-screen home-bg flex justify-center items-center font-outfit text-[#EAEAEA]'>
         <div className='flex flex-col gap-8 items-center max-w-[300px] md:max-w-[700px]'>
           <h1 className='text-5xl md:text-7xl mb-4 font-bold hero-title text-center'>Find Your Pulse</h1>
-
           <div className='text-xl md:text-2xl text-center hero-text'>
             <p>A simple focus timer designed for deep, uninterrupted work.</p>
             <p>Start a session, stay present, and let time flow</p>
